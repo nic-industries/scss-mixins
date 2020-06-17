@@ -1,8 +1,8 @@
 {
   "name": "@nic-industries/scss-mixins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of SCSS mixins",
-  "repository": "https://github.com/nic-industries/scss-mixins",
+  "repository": "git://github.com/nic-industries/scss-mixins.git",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": ["sass", "scss", "css", "mixins"],
   "author": {
