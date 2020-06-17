@@ -1,0 +1,13 @@
+{
+  "name": "@nic-industries/scss-mixins",
+  "version": "1.0.0",
+  "description": "A collection of SCSS mixins",
+  "repository": "https://github.com/nic-industries/scss-mixins",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "keywords": ["sass", "scss", "css", "mixins"],
+  "author": {
+    "name": "Sebastian Inman",
+    "email": "sebastian@nicindustries.com"
+  },
+  "license": "ISC"
+}
