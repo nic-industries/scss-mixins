@@ -5,11 +5,12 @@
 // Style guide: Mixins.Helpers
 
 
-@mixin Helper\Line-Clamp($lines: 2, $overflow: ellipsis) {
+@mixin Helper\Line-Clamp($lines: 2, $line-height: 16px, $overflow: ellipsis) {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: $lines;
-  display: -webkit-box;
+  max-height: $line-height * ($lines + 1);
   text-overflow: $overflow;
+  display: -webkit-box;
   overflow: hidden;
   @if $lines == 1 {
     white-space: nowrap;
